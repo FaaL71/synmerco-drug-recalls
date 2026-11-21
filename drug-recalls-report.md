@@ -244,4 +244,10 @@ status: Ongoing 302
 
 Columns, in order: `recall_number,recalling_firm,state,classification,status,report_date,recall_initiation_date,cause group,reason_for_recall`. Sorted by report_date then recall_number. One row per recall returned, never split; values as returned, reason cut to 100 characters. Key column: recall_number.
 
+```synmerco-data
+f47a44d69db198f4d979766806d03c9974d1761f149a314a05fd559b0334d90c drug-recalls-pull1.csv
+f47a44d69db198f4d979766806d03c9974d1761f149a314a05fd559b0334d90c drug-recalls-pull2.csv
+f47a44d69db198f4d979766806d03c9974d1761f149a314a05fd559b0334d90c drug-recalls-pull3.csv
+```
+
 Source: openFDA drug enforcement, host api.fda.gov, endpoint /drug/enforcement.json. Only the sources listed in the job.
